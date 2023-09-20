@@ -7,6 +7,7 @@ class Section3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: prefer_const_constructors
     return Column(
       // mainAxisAlignment: MainAxisAlignment.end,
       children: const [

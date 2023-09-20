@@ -23,6 +23,9 @@ class FastLaughsBloc extends Bloc<FastLaughsEvent, FastLaughsState> {
   ) : super(FastLaughsState.initial()) {
     on<Initialize>(
       (event, emit) async {
+        
+        //sending loading to ui
+
         emit(const FastLaughsState(
                 videosList: [], isLoading: true, isError: false));
         // get trending movies

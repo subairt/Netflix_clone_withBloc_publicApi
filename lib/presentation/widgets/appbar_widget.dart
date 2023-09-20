@@ -11,7 +11,7 @@ class AppbarWidget extends StatelessWidget {
       children: [
         Text(
           title,
-          style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold,color:Color.fromARGB(255, 182, 18, 6)),
         ),
         const Spacer(),
         IconButton(

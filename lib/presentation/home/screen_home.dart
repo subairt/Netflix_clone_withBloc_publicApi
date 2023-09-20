@@ -113,15 +113,15 @@ class ScreenHome extends StatelessWidget {
                 child: Stack(
                   children: [
                     scrollNotifier.value == true
-                        ? Column(
+                        ? const Column(
                             children: [
-                              const AppbarWidget(
+                              AppbarWidget(
                                 title: 'Netflix',
                               ),
                               Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
-                                children: const [
+                                children: [
                                   Text(
                                     "TV Shows",
                                     style: style,
@@ -191,9 +191,9 @@ class MainBannerWidget extends StatelessWidget {
                   backgroundColor: MaterialStateProperty.all(kwhiteColor),
                 ),
                 onPressed: () {},
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Icon(
                       Icons.play_arrow,
                       color: Colors.black,

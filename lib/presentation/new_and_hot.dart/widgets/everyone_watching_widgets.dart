@@ -32,9 +32,9 @@ class EveryOneWatchinWdget extends StatelessWidget {
         ),
         khight,
          VideosWidget(vidoeUrl: posterPath),
-        Row(
+        const Row(
           mainAxisAlignment: MainAxisAlignment.end,
-          children: const [
+          children: [
             TextIconButton(
               icon: Icons.share,
               iconsize: 25,
@@ -44,13 +44,13 @@ class EveryOneWatchinWdget extends StatelessWidget {
             TextIconButton(
               icon: Icons.add,
               iconsize: 25,
-              title: "Share",
+              title: "MyList",
               textsize: 20,
             ),
             TextIconButton(
               icon: Icons.play_arrow,
               iconsize: 25,
-              title: "Share",
+              title: "Play",
               textsize: 20,
             ),
           ],

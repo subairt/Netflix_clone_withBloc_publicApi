@@ -9,8 +9,8 @@ class SmartDownloads extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: const [
+    return const Row(
+      children: [
         kwidth,
         Icon(Icons.settings, color: kwhiteColor),
         kwidth,
